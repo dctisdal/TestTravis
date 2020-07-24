@@ -1,4 +1,11 @@
 language: java
 jdk:
-- oraclejdk14
-script: ant build
+  -oraclejdk8
+
+addons:
+  sonarcloud:
+    organization: 
+    token: 
+script: 
+-ant build
+-sonar-scanner
