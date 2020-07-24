@@ -4,8 +4,8 @@ jdk:
 
 addons:
   sonarcloud:
-    organization: 
-    token: 
+    organization: dctisdal
+    token: 6132886b5344299e3f7b7b709589db81aa0288e7
 script: 
 -ant build
 -sonar-scanner
